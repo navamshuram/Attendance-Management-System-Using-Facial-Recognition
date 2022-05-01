@@ -25,7 +25,7 @@ class Developer:
         main_frame = Frame(f_lbl, bd=2, bg="white")
         main_frame.place(x=1030, y=0, width=500, height=700)
 
-        img_top1 = Image.open(r"img/developerpic1.jpg")
+        img_top1 = Image.open(r"img/developerpic10.jpg")
         img_top1 = img_top1.resize((200, 200), Image.ANTIALIAS)
         self.photoimg_top1 = ImageTk.PhotoImage(img_top1)
 
@@ -34,7 +34,7 @@ class Developer:
 
 
         # Developer
-        dev_label = Label(main_frame,text="Hello!      \n I am Tharun.R", font=("times new roman", 25, "bold"), bg="white")
+        dev_label = Label(main_frame,text="Hello!      \n I am Navamshu Ram PV", font=("times new roman", 25, "bold"), bg="white")
         dev_label.place(x=0,y=5)
 
         dev_label = Label(main_frame, text="Skill-(Python Developer)", font=("times new roman", 20, "bold"), bg="white")
