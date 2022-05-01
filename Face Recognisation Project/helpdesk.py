@@ -21,7 +21,7 @@ class Helpdesk:
         f_lbl = Label(self.root, image=self.photoimg_top)
         f_lbl.place(x=0, y=55, width=1530, height=700)
 
-        dev_label = Label(f_lbl, text="EMAIL: tharunreddyramigani@gmail.com", font=("times new roman", 25, "bold"), bg="white")
+        dev_label = Label(f_lbl, text="EMAIL: navamshuram2002@gmail.com", font=("times new roman", 25, "bold"))
         dev_label.place(x=0, y=5)
 
 
