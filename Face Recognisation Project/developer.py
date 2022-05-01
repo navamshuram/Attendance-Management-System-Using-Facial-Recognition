@@ -37,7 +37,7 @@ class Developer:
         dev_label = Label(main_frame,text="Hello!      \n I am Navamshu Ram PV", font=("times new roman", 25, "bold"), bg="white")
         dev_label.place(x=0,y=5)
 
-        dev_label = Label(main_frame, text="Skill-(Python Developer)", font=("times new roman", 20, "bold"), bg="white")
+        dev_label = Label(main_frame, text="Web Developer", font=("times new roman", 20, "bold"), bg="white")
         dev_label.place(x=0, y=90)
 
 
